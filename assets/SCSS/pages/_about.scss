@@ -1,0 +1,52 @@
+@use"../base/mixins.scss";
+.about{
+    padding: 4rem 8rem;
+    background-color: #fffdd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+    @include mixins.responsive(xs){
+        padding: 2rem 5rem;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+}
+
+.aboutArea{
+    width: 50%;
+    @include mixins.responsive(xs){
+    width: 100%;
+    }
+// Header and para
+&--contents{
+    margin-left: 5rem;
+    color:#693538;
+    @include mixins.responsive(xs){
+        margin-left: 2rem;
+    }
+
+    h2{
+        font-size: 3rem ;
+        @include mixins.responsive(xs){
+            font-size: 25px;
+        }
+    }
+
+    p{
+        font-size: 1.3rem;
+        color: #86a58c;
+        @include mixins.responsive(xs){
+            font-size: 1rem;
+        }
+    }
+}
+
+}
+.aboutArea img{
+    width: 32rem;
+    @include mixins.responsive(xs){
+        width: 18rem;
+        }
+}
+

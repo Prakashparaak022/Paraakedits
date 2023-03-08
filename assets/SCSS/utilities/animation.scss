@@ -1,0 +1,22 @@
+// @keyframes color-change{
+//     0%{
+//         color: #3d535f;
+//     }
+//     50%{
+//         color: #f26d20;
+//     }
+//     100%{
+//         color:#3d535f;
+//     }
+// }
+
+@keyframes box-shape{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+

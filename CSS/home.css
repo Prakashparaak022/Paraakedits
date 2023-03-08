@@ -1,0 +1,22 @@
+.heroArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 3rem;
+}
+.heroArea--title {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #3d535f;
+}
+.heroArea--p {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  line-height: 1.8;
+}

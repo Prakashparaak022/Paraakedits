@@ -1,0 +1,22 @@
+@-webkit-keyframes color-change {
+  0% {
+    color: #3d535f;
+  }
+  50% {
+    color: #f26d20;
+  }
+  100% {
+    color: #3d535f;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: #3d535f;
+  }
+  50% {
+    color: #f26d20;
+  }
+  100% {
+    color: #3d535f;
+  }
+}

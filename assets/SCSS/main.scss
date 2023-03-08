@@ -1,3 +1,29 @@
-*{
-    background-color: aqua;
-}
+
+//Header
+@import "./menuComponents/header";
+
+//footer
+@import"./menuComponents/footers";
+
+//base
+@import "./base/reset";
+@import"./base/mixins.scss";
+
+//utilities
+@import "./utilities/animation.scss";
+
+@import"./utilities/spacing";
+
+@import"./utilities/particles";
+
+// pages
+@import"./pages/home.scss";
+@import"./pages/about";
+@import"./pages/courses";
+@import"./pages/contact";
+
+//imgs
+@import"./images/img.scss";
+
+// blinktext
+@import"./JSFiles/blinkingtext.scss";
