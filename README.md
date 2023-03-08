@@ -1,3 +1,2 @@
 # Paraakedits
-
-Copy pannatha da dani
+Official Website of paraak edits
